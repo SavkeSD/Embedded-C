@@ -1,0 +1,26 @@
+/*
+ * Project template used for the "Embedded Software Development" course.
+ */
+
+
+#include "helper_library/helper.h"
+
+
+int main(void)
+{
+    helper_library_init();
+
+    unsigned int prviBroj, drugiBroj;
+
+    print("Unesite prvi broj: ");
+    scan("%d",&prviBroj);
+
+    print("\n Unesite drugi broj: ");
+    scan("%d", &drugiBroj);
+
+
+
+    return 0;
+
+
+}

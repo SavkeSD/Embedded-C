@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project ESD Kurs - Project Template ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'ESD Kurs - Project Template.out' is up to date.
+
+**** Build Finished ****
