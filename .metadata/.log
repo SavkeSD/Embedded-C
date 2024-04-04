@@ -270,3 +270,133 @@ Caused by: java.lang.IllegalArgumentException:
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-04-03 14:53:27.495
 !MESSAGE Indexed 'Termin01Zadatak10' (4 sources, 34 headers) in 0.082 sec: 963 declarations; 7,301 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+!SESSION 2024-04-04 09:53:14.573 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.13
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2024-04-04 09:53:21.860
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2024-04-04 09:53:21.861
+!MESSAGE debugServerDir=C:/ti/ccs1250/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2024-04-04 09:53:35.702
+!MESSAGE CCS IDE session started!
+	CCS build: 12.5.0.00007
+	CCS location: C:/ti/ccs1250/ccs
+	Workspace location: C:/Users/Savke/workspace_v12
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.953
+!MESSAGE constructor
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.953
+!MESSAGE done with directories
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.954
+!MESSAGE loading ti_logger
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.955
+!MESSAGE Platform os: win32
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.956
+!MESSAGE loading cToolsIF
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.969
+!MESSAGE loading cTools
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.986
+!MESSAGE loading TraceFactory
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:35.999
+!MESSAGE loading sqlite3
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:36.011
+!MESSAGE loading CloudTrace
+
+!ENTRY com.ti.dbgtrc.webapp.CloudTraceInterface 0 0 2024-04-04 09:53:36.065
+!MESSAGE CloudTrace interface loaded
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2024-04-04 09:53:36.206
+!MESSAGE CCS HTTP adapter started! [ccs.port:53905] - Open 'http://localhost:53905/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:38.334
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:38.935
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2mac/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:39.787
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:40.587
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2mac/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:41.224
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2win32/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:42.558
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:43.133
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2mac/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:43.951
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/CCSv5/Updates/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:44.511
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:45.246
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2mac/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:45.814
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/CCSv5/Updates/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:46.394
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2win32/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:47.678
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:48.277
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2linux/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-04-04 09:53:48.992
+!MESSAGE Using unsafe http transport to retrieve http://software-dl.ti.com/dsps/dsps_public_sw/sdo_ccstudio/codegen/Updates/p2win32/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 10:28:54.683
+!MESSAGE Indexed 'Termin2Zadatak1' (6 sources, 34 headers) in 0.724 sec: 989 declarations; 7,432 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 10:56:35.573
+!MESSAGE Indexed 'Termin2Zadatak2' (4 sources, 34 headers) in 0.117 sec: 962 declarations; 7,301 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:19:55.881
+!MESSAGE Indexed 'Termin2Zadatak3' (4 sources, 34 headers) in 0.123 sec: 962 declarations; 7,300 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:23:31.819
+!MESSAGE Indexed 'Termin2Zadatak4' (4 sources, 34 headers) in 0.128 sec: 962 declarations; 7,298 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:28:56.238
+!MESSAGE Indexed 'Termin2Zadatak5' (4 sources, 34 headers) in 0.085 sec: 962 declarations; 7,300 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:34:47.153
+!MESSAGE Indexed 'Termin2Zadatak6' (4 sources, 34 headers) in 0.088 sec: 962 declarations; 7,297 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:36:27.119
+!MESSAGE Indexed 'Termin2Zadatak7' (4 sources, 34 headers) in 0.081 sec: 962 declarations; 7,297 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 12:39:57.492
+!MESSAGE Indexed 'Termin2Zadatak8' (4 sources, 34 headers) in 0.103 sec: 962 declarations; 7,297 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 13:52:13.224
+!MESSAGE Indexed 'Termin2Zadatak9' (4 sources, 34 headers) in 0.087 sec: 962 declarations; 7,304 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 15:25:21.444
+!MESSAGE Indexed 'Termin2Zadatak10' (4 sources, 34 headers) in 0.089 sec: 964 declarations; 7,309 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-04 15:40:30.604
+!MESSAGE Indexed 'Termin2Zadatak11' (4 sources, 34 headers) in 0.081 sec: 964 declarations; 7,309 references; 0 unresolved inclusions; 1 syntax errors; 13 unresolved names (0.16%)
