@@ -10,23 +10,31 @@ int main(void)
 {
     helper_library_init();
 
-    int ugao1,ugao2,ugao3;
-    print("Unesite prvi ugao: ");
-    scan("%d", &ugao1);
-    print("Unesite drugi ugao: ");
-    scan("%d", &ugao2);
-    print("Unesite treci ugao: ");
-    scan("%d", &ugao3);
+    int broj1,broj2;
+    print("Unesite prvi broj: ");
+    scan("%d", &broj1);
+    print("Unesite drugi broj: ");
+    scan("%d", &broj2);
 
-    if ( ugao1 >=180 || ugao2 >=180 || ugao3 >=180) {
-        print("Greska prilikom unosa ugla, ne moze biti veci od 180");
-    }
-    else if ((ugao1+ugao2+ugao3) == 180) {
-        print("Moguce je konstruisati trougao za ova 3 ugla");
+    int zbir, mnozenje, deljenje, oduzimanje;
+
+    zbir = broj1 + broj2;
+        print("Zbir je : %d \n", zbir);
+    mnozenje = broj1 * broj2;
+        print("Mnozenje je : %d\n", mnozenje);
+    oduzimanje = broj1 - broj2;
+        print("Oduzimanje je : %d\n", oduzimanje);
+
+    if (0 == broj2) {
+        print("Nemoguce je deljenje sa nulom, greska!!!\n");
     }
     else {
-        print("Nije moguce konstruisati trougao");
+        deljenje = broj1 / broj2;
+        print("Deljenje je %d\n", deljenje);
     }
+
+
+
 
     return 0;
 
